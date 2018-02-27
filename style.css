@@ -1,0 +1,54 @@
+﻿body {
+	font-family: Verdana;
+	
+	color: #333;
+	background: #eff3e5;
+	background-image: url(images/Dew-green-grass-Wallpapers-HD-1920x1200.jpg);
+
+}
+
+.button{
+	display: inline-block;
+	margin-top: 15px;
+	margin-left: 20px;
+	width: 120px;
+	height: 25px;
+	border-radius: 20px;
+	background-color: #67d482eb;
+	text-align: center;
+	box-shadow:3px 3px 3px 0 black;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	text-shadow: 1px 2px green;
+	text-decoration-line: underline;
+}
+
+p {
+
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+h3{
+	text-align: center;
+	text-shadow: 1px 2px green;
+
+}
+
+.submit{
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+a {
+	color: #09102b;
+}
+
+.index {
+	font-size: 10px;
+	font-weight: bold;
+}
