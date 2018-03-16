@@ -5,14 +5,14 @@ $vartist = 6; //вартість 1 літра молока
 if (0 < $litr && $litr < 1000){
 	$zp = $litr*$vartist*0.2;
 	echo "<p>Зарплатня $name становить $zp гривень";
-}elseif (1000 <= $litr && $litr <= 2000) {
+}elseif (1000 <= $litr && $litr < 2000) {
 	$zp = $litr*$vartist*0.25;
 	echo "<p>Зарплатня $name становить $zp гривень";
-}elseif ($litr > 2000) {
+}elseif ($litr => 2000) {
 	$zp = $litr*$vartist*0.3;
 	echo "Зарплатня $name становить $zp гривень";
 }else{
 	echo "<p>$name не продав жодного літра, і зарплату не отримає.";
 }
-
+echo "<p><a href='index.html'>Повернутись на головну</a>";
 ?>

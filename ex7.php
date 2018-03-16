@@ -23,7 +23,13 @@ switch ($num) {
 	case 7:
 		echo "Це Неділя";
 		break;
+	case "":
+		echo "Щось пішло не так...";
+		break;
+	default:
+		echo "Такого дні в тижні не існує!";
+		break;
 }
-
+echo "<p><a href='index.html'>Повернутись на головну</a>";
 
 ?>
