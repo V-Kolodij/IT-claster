@@ -110,7 +110,7 @@ foreach ($mass as $key => $value) {
 	$sdf[$key]=$summ_stovp;
 	$summ_stovp=0;
 }
-$g=$sdf[0];
+$g=$sdf[0];   			//визначимо найбільший елемент і номер стовпця 
 foreach ($sdf as $k => $value) {
 		if ($value>$g){
 			$g=$value;
